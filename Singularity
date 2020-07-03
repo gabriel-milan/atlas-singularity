@@ -17,4 +17,4 @@ source /code/atlas-env/atlas_env/bin/activate
 mkdir -p /code
 apt update && apt upgrade && apt install -y vim git
 cd /code && git clone https://github.com/gabriel-milan/atlas-env
-cd /code/atlas-env && ./generate_envs.sh --pip --saphyra --kolmov --root --prometheus
+cd /code/atlas-env && ./generate_env.sh --pip --saphyra --kolmov --root --prometheus
